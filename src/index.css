@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+/* Basic link style */
+.nav-link {
+  text-decoration: none; /* Remove default underline */
+  color: white; /* Default text color */
+}
+
+/* Hover style */
+.nav-link:hover {
+  color: #FFD700; /* Change color on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Active link style */
+.nav-link.active {
+  color: #FFD700; /* Always show active link in gold color */
+  text-decoration: underline; /* Underline the active link */
+}
