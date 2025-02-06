@@ -32,15 +32,15 @@ const App = () => {
           </div>
 
           {/* Desktop Menu */}
-          <ul className="hidden lg:flex space-x-4 text-white">
-            <li><a href="#home" className="nav-link">Home</a></li>
-            <li><a href="#company-info" className="nav-link">Company Info</a></li>
-            <li><a href="#events" className="nav-link">Events</a></li>
-            <li><a href="#projects" className="nav-link">Projects</a></li>
-            <li><a href="#engagement" className="nav-link">Employee Engagement</a></li>
-            <li><a href="#hr" className="nav-link">HR Functions</a></li>
-            <li><a href="#resources" className="nav-link">Resources & Facilities</a></li>
-            <li><a href="#feedback" className="nav-link">Feedback</a></li>
+          <ul className="hidden lg:flex gap-2 text-white">
+            <li><a href="#home" className="nav-link">Home |</a></li>
+            <li><a href="#company-info" className="nav-link">Company Info |</a></li>
+            <li><a href="#events" className="nav-link">Events |</a></li>
+            <li><a href="#projects" className="nav-link">Projects |</a></li>
+            <li><a href="#engagement" className="nav-link">Employee Engagement |</a></li>
+            <li><a href="#hr" className="nav-link">HR Functions |</a></li>
+            <li><a href="#resources" className="nav-link">Resources & Facilities |</a></li>
+            <li><a href="#feedback" className="nav-link">Feedback |</a></li>
           </ul>
         </div>
 
@@ -71,7 +71,7 @@ const App = () => {
         <section id="hr"><HRFunctions /></section>
         <section id="resources"><ResourcesFacilities /></section>
         <section id="feedback"><FeedbackImprovement /></section>
-        <section id="footer"><Footer /></section>
+        <section id="footer"><Footer/></section>
       </div>
     </div>
   );
