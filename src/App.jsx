@@ -8,6 +8,7 @@ import EmployeeEngagement from "./Components/EmployeeEngagement";
 import HRFunctions from "./Components/HRFunctions";
 import ResourcesFacilities from "./Components/ResourcesFacilities";
 import FeedbackImprovement from "./Components/FeedbackImprovement";
+import Footer from "./Components/Footer";
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false); // State to toggle the mobile menu
@@ -70,6 +71,7 @@ const App = () => {
         <section id="hr"><HRFunctions /></section>
         <section id="resources"><ResourcesFacilities /></section>
         <section id="feedback"><FeedbackImprovement /></section>
+        <section id="footer"><Footer /></section>
       </div>
     </div>
   );
